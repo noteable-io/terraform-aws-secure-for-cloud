@@ -1,4 +1,4 @@
-resource "aws_iam_role" "eks_cluster" {
+resource "aws_iam_role" "eks_cluster" {87777
   name = "${var.name}-eks_cluster"
 
   assume_role_policy = <<POLICY
